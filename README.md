@@ -24,6 +24,12 @@ cp .env.example .env
 
 Then edit it with your preferred editor.
 
+Open the pipenv shell:
+
+```sh
+pipenv shell
+```
+
 ## How to use
 
 ### Getting data
