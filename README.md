@@ -2,6 +2,8 @@
 
 Filters a list of profiles from OkCupid by some given parameters, so you don't have to spend a lifetime swiping.
 
+Note the effectiveness of this is limited by their app. I managed to find one of their endpoints that exposes enough profiles to filter through, but their algorithms are shit so almost all the results end up being poor matches anyway.
+
 ### Features
 
 * Filter by match percentage
