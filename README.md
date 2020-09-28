@@ -2,13 +2,18 @@
 
 Filters a list of profiles from OkCupid by some given parameters, so you don't have to spend a lifetime swiping.
 
-Note the effectiveness of this is limited by their app. I managed to find one of their endpoints that exposes enough profiles to filter through, but their algorithms are shit so almost all the results end up being poor matches anyway.
-
 ### Features
 
 * Filter by match percentage
 
 That's all there is for now.
+
+## Limitations
+
+Note the effectiveness of this is limited by their app. I managed to find one of their endpoints that exposes enough profiles to filter through, but their algorithms are shit so almost all the results end up being poor matches anyway.
+
+One potential workaround would be to run a headless Chrome (or other browser) instance, manually do the search, extract the relevant API response, then use this data to run the script. It could be run as a cron job and notify you when it finds any decent matches. You'd be able to leave it on autopilot with strong filters until it finds someone compatible. But I don't use OkCupid anymore so I'll leave this to someone if they want to make a PR.
+
 
 ## Installation
 
